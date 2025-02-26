@@ -172,17 +172,6 @@ a:hover {
     box-sizing: border-box;
 }
 
-.buynow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    color: #f0df5d;
-    font-family: cursive;
-    position: relative;
-    bottom: 25vw;
-    left:50vh;
-}
 
 section {
     display: flex;
@@ -193,6 +182,15 @@ section {
     position: relative;
     margin-top: -40vh;
     box-sizing: border-box;
+}
+
+.contenedorcds{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10vh;
+
 }
 
 .contenedorcds img {
@@ -737,13 +735,15 @@ top: 4vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-        height: 2vh;} 
-.navegation .logo {
-    height: 10vh;
-    width: 20vh;
-    position: relative;
-    top: -5px;
-    left: 8vh;
+        height: 4vh;} 
+@media (max-width: 767px) {
+    .navegation .logo {
+        height: 10vh;
+        width: 26vh;
+        position: absolute;
+        bottom: 1vh;
+        left: 10vh;
+    }
 }
 
 .list li {
@@ -754,11 +754,12 @@ top: 4vh;
     text-transform: uppercase;
     position: relative;
     top: 35px;
-    left: -25px;
+    left: -9vh;
 }
 
 .list a {
-    font-size: 10px;
+    font-size: 1.7vh;
+    padding: 1vh;
     position: relative;
     top: 10px;
     left: 50px;
@@ -798,7 +799,7 @@ grid-template-areas:
     "cd3 cd4";
     position: relative;
     top: -20vh;
-    left: 0%;
+ left: -5vh;
 }
 
 .discs a img {

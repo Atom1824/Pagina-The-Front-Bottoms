@@ -24,7 +24,6 @@
 }
 
 .navegation .logo {
-    float: left;
     width: 20vh;
     height: 10vh;
 }
@@ -699,7 +698,8 @@ i:hover {
     box-sizing: border-box;
 
 }
-.mainmusic{
+
+.mainmusic {
     display: block;
     background-color: #3b7780;
     object-fit: cover;
@@ -708,18 +708,19 @@ i:hover {
     width: 100%;
     height: 150vh;
 }
+
 .musiccontainer {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
         " cd1 cd2 cd3 cd4"
         " cd5 cd6 cd7 cd8"
         " cd9 cd10 cd11 cd12";
-        background-color: black;
-        position: relative;
-        bottom: 20px;
-        height: 125vh;
+    background-color: black;
+    position: relative;
+    bottom: 20px;
+    height: 125vh;
 
 }
 
@@ -727,7 +728,7 @@ i:hover {
 
 .musiccontainer img {
     display: flex;
-    width:30vh;
+    width: 30vh;
     padding: 5px;
     object-fit: cover;
     opacity: .9;
@@ -736,7 +737,7 @@ i:hover {
     transition: all 0.5s;
 }
 
-.musiccontainer img:hover{
+.musiccontainer img:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1;
@@ -865,8 +866,8 @@ i:hover {
     background-color: #3b7780;
 }
 
-    
-    
+
+
 
 
 .subtitulo {
@@ -881,141 +882,306 @@ i:hover {
     left: 60vh;
 }
 
-    @media (max-width: 767px) {
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: poppins, sans-serif;
-        }
+/*Contactus*/
+.bodycobtact {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        .nav {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 4vh;
-        }
+.maincontact {
+    display: block;
+    background-color: #3b7780;
+    width: 100%;
+    height: 120vh;
+}
 
-        .navegation .logo {
-            height: 10vh;
-            width: 26vh;
-            position: absolute;
-            bottom: 1vh;
-            left: 10vh;
-        }
+.maincontact h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 15vh;
+}
 
-        .list li {
-            display: inline;
-            width: 20px;
-            height: 10px;
-            padding: 1px;
-            text-transform: uppercase;
-            position: relative;
-            top: 35px;
-            left: -9vh;
-        }
+.contactform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    left: 0vh;
+    width: 100%;
+    height: 30vh;
+}
 
-        .list a {
-            font-size: 1.7vh;
-            padding: 1vh;
-            position: relative;
-            top: 10px;
-            left: 50px;
-        }
+.field {
+    border: transparent;
 
-        .titulo {
-            font-size: 25px;
-            position: relative;
-            top: 80px;
-        }
+}
 
-        .outnow {
-            font-size: 20px;
-            position: relative;
-            top: 15vh;
-        }
+.nombreform {
+    display: flex;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+}
 
-        .btnlisten {
-            font-size: 10px;
-            position: relative;
-            top: 17vh;
-            padding: 5px 10px;
-        }
+.emailform {
+    display: flex;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+}
 
-        .container2 img {
-            width: 50vh;
-            height: 40vh;
-            position: relative;
-            top: 20vh;
-        }
+.phoneform {
+    display: flex;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+}
 
-        .discs {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            grid-template-areas:
-                "cd1 cd2"
-                "cd3 cd4";
-            position: relative;
-            top: -20vh;
-            left: -5vh;
-        }
+#name {
+    display: flex;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #f0df5d;
+    font-family: cursive;
+    margin: 1vh
+}
 
-        .discs a img {
-            width: 20vh;
-            padding: 5px;
-            object-fit: cover;
-            opacity: .9;
-            transition: .5s ease;
-            display: flexbox;
-            position: relative;
-            right: 25%;
-            box-sizing: border-box;
-            transition: all 0.5s;
-        }
+#email {
+    display: flex;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #f0df5d;
+    font-family: cursive;
+    margin: 1vh
+}
 
-        .discs a img:hover {
-            cursor: crosshair;
-            width: 180px;
-            opacity: 1;
-            filter: contrast(120%);
-        }
+#phone {
+    display: flex;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #f0df5d;
+    font-family: cursive;
+    margin: 1vh
+}
 
-        .buynow {
-            font-size: 15px;
-            position: relative;
-            bottom: 42vh;
-            left: 17vh;
-        }
-
-        .gridmain {
-            box-sizing: border-box;
-        }
-
-        .maintour {
-            display: block;
-            background-color: #3b7780;
-            object-fit: cover;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 120vh;
-        }
-
-        .toursection {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-template-areas:
-                " date1 date2 date3 date4"
-                " place place2 place3 place4"
-                "  rsvp1 rsvp2 rsvp3 rsvp4"
-                " tiket1 tiket2 tiket3 tiket4";
-            width: 100%;
-            height: 20vw;
-            position: relative;
-            top: 60vh;
-        }
+.submitform {
+    display: flex;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: cursive;
+    margin: 1vh;
+    position: relative;
+    top: 2vh;
+    left: 9vh;
+}
 
 
+
+@media (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins, sans-serif;
     }
+
+    .nav{
+        display: block;
+        width: 100%;
+        height: 5vh
+    }
+
+    .navegation {
+        position: fixed;
+        height: 10vh;
+        width: 100%;
+        right: 0;
+        left: 0;
+        background-color: #3b7780;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        z-index: 100;
+    }
+
+    .navegation .logo {
+        display: block;
+        position: relative;
+        top: -1vh;        width: 20vh;
+        height: 10vh;
+    }
+
+    ul {
+        position: fixed;
+        height: 15px;
+        left: 20%;
+        z-index: 500;
+    }
+
+    .list li {
+        display: inline-block;
+        padding: 2vh;
+        text-transform: uppercase;
+        position: relative;
+        top: 35px;
+        left: -8vh;
+        margin: 2.5vh;
+    }
+    .titulo {
+        font-size: 30px;
+        position: relative;
+        top: 80px;
+    }
+
+    .outnow {
+        font-size: 20px;
+        position: relative;
+        top: 15vh;
+    }
+
+    .btnlisten {
+        font-size: 20px;
+        position: relative;
+        top: 17vh;
+        padding: 5px 10px;
+    }
+
+    .container2 img {
+        width: 70vh;
+        height: 60vh;
+        position: relative;
+        top: 20vh;
+    }
+
+    .discs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "cd1 cd2"
+            "cd3 cd4";
+        position: relative;
+        top: -20vh;
+        left: -5vh;
+    }
+
+    .discs a img {
+        width: 23vh;
+        padding: 5px;
+        object-fit: cover;
+        opacity: .9;
+        transition: .5s ease;
+        display: flexbox;
+        position: relative;
+        right: 25%;
+        box-sizing: border-box;
+        transition: all 0.5s;
+    }
+
+    .discs a img:hover {
+        cursor: crosshair;
+        width: 190px;
+        opacity: 3;
+    }
+
+
+    /*Tour*/
+
+    .headertour{
+        display: fixed;
+        width: 100%;
+        height: 5vh
+    }
+
+    .logotour{
+        display: block;
+        position: relative;
+        top: -1vh;        
+        width: 20vh;
+        height: 10vh;
+    }
+
+    .navegationtour {
+        display: inline-block;
+        position: fixed;
+        height: 10vh;
+        width: 100%;
+        background-color: #3b7780;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        z-index: 100;
+    }
+
+    .navegationtour .logo {
+        display: block;
+        position: relative;
+        top: -1vh;        
+        width: 17vh;
+        height: 10vh;
+    }
+
+    .lilist a {
+display: block;
+text-transform: uppercase;
+position: relative;
+top: -20px;
+    }
+.listtour li {
+    display: inline-block;
+    padding: 1vh;
+    font-family: cursive;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: -7vh;
+    margin: 2.5vh;;
+}
+
+.listtour li a {
+    display: block;
+    color: #f2e15c;
+    font-size:14px;
+    font-family: cursive;
+   
+}
+
+    .maintour {
+        display: block;
+        background-color: #3b7780;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    .toursection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            " date1 date2 date3 date4"
+            " place place2 place3 place4"
+            "  rsvp1 rsvp2 rsvp3 rsvp4"
+            " tiket1 tiket2 tiket3 tiket4";
+        width: 100%;
+        height: 20vw;
+        position: relative;
+        top: 51vh;
+        
+    }
+.toursection div span{
+    font-size: 17px;
+}
+
+/*Music*/
+

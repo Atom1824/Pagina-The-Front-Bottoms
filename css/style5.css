@@ -4,8 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins, sans-serif;
 }
+
+
+
 
 /*Nav bar*/
 .navegation {
@@ -95,6 +97,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    
 }
 
 .btnlisten {
@@ -693,138 +696,161 @@ top: 4vh;
 }
 
 .musiccontainer{
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-        "card1 card2 card3 card4"
-        "card5 card6 card7 card8";
     width: 100%;
     height: 100vh;
-    position: relative;
-    border: solid black;
+    border: solid white;
     background-color: black;
 }
 
-.card1 {
-    grid-area: card1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f0df5d;
-    font-family: cursive;
-    object-fit: cover;
-    width: 100%; /* Ensure the container has a defined width */
-    height: 100%; /* Ensure the container has a defined height */
-    overflow: hidden; /* Hide any overflowing content */
+.subtitulo{
+display: block;
+color: white;
+font-size: 3vh;
+font-family: cursive;
+align-items: center;
+justify-content: center;
+position: relative;
+bottom: 20vh;
 }
 
-.card2{
-    grid-area: card2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f0df5d;
-    font-family: cursive;}
+
 
 
     @media (max-width: 767px) {
-        .nav{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        height: 4vh;} 
-@media (max-width: 767px) {
-    .navegation .logo {
-        height: 10vh;
-        width: 26vh;
-        position: absolute;
-        bottom: 1vh;
-        left: 10vh;
-    }
-}
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: poppins, sans-serif;
+        }
+            .nav{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            height: 4vh;} 
+        
+            .navegation .logo {
+                height: 10vh;
+                width: 26vh;
+                position: absolute;
+                bottom: 1vh;
+                left: 10vh;
+            }
 
-.list li {
-    display: inline;
-    width: 20px;
-    height: 10px;
-    padding: 1px;
-    text-transform: uppercase;
-    position: relative;
-    top: 35px;
-    left: -9vh;
-}
+            .list li {
+                display: inline;
+                width: 20px;
+                height: 10px;
+                padding: 1px;
+                text-transform: uppercase;
+                position: relative;
+                top: 35px;
+                left: -9vh;
+            }
+            
+            .list a {
+                font-size: 1.7vh;
+                padding: 1vh;
+                position: relative;
+                top: 10px;
+                left: 50px;
+            }
+            
+            .titulo {
+                font-size: 25px;
+                position: relative;
+                top: 80px;
+            }
+            .outnow {
+                font-size: 20px;
+                position: relative;
+                top: 15vh;
+            }
+            
+            .btnlisten {
+                font-size: 10px;
+                position: relative;
+                top: 17vh;
+                padding: 5px 10px;
+            }
+            
+            .container2 img {
+                width: 50vh;
+                height: 40vh;
+                position: relative;
+                top: 20vh;
+            }
+            
+            .discs{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas:
+                "cd1 cd2"
+                "cd3 cd4";
+                position: relative;
+                top: -20vh;
+             left: -5vh;
+            }
+            
+            .discs a img {
+                width:20vh;
+                padding: 5px;
+                object-fit: cover;
+                opacity: .9;
+                transition: .5s ease;
+                display: flexbox;
+                position: relative;
+                right: 25%;
+                box-sizing: border-box;
+                transition: all 0.5s;
+            }
+            
+            .discs a img:hover {
+                cursor: crosshair;
+                width: 180px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+            
+            .buynow {
+                font-size: 15px;
+                position: relative;
+                bottom: 42vh;
+                left: 17vh;
+            }
+            
+            .gridmain{
+             box-sizing: border-box;
+            }
 
-.list a {
-    font-size: 1.7vh;
-    padding: 1vh;
-    position: relative;
-    top: 10px;
-    left: 50px;
-}
+            .maintour{
+                display: block;
+                background-color: #3b7780;
+                object-fit: cover;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 120vh;
+            }
 
-.titulo {
-    font-size: 25px;
-    position: relative;
-    top: 80px;
-}
-.outnow {
-    font-size: 20px;
-    position: relative;
-    top: 15vh;
-}
+            .toursection{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-areas:
+                    " date1 date2 date3 date4"
+                    " place place2 place3 place4"
+                    "  rsvp1 rsvp2 rsvp3 rsvp4"
+                    " tiket1 tiket2 tiket3 tiket4";
+                width: 100%;
+                height: 20vw;
+                position: relative;
+                top: 60vh;
+            }
 
-.btnlisten {
-    font-size: 10px;
-    position: relative;
-    top: 17vh;
-    padding: 5px 10px;
-}
 
-.container2 img {
-    width: 50vh;
-    height: 40vh;
-    position: relative;
-    top: 20vh;
-}
-
-.discs{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-template-areas:
-    "cd1 cd2"
-    "cd3 cd4";
-    position: relative;
-    top: -20vh;
- left: -5vh;
-}
-
-.discs a img {
-    width:20vh;
-    padding: 5px;
-    object-fit: cover;
-    opacity: .9;
-    transition: .5s ease;
-    display: flexbox;
-    position: relative;
-    right: 25%;
-    box-sizing: border-box;
-    transition: all 0.5s;
-}
-
-.discs a img:hover {
-    cursor: crosshair;
-    width: 180px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-
-.buynow {
-    font-size: 15px;
-    position: relative;
-    bottom: 42vh;
-    left: 17vh;
-}
+        }

@@ -7,8 +7,6 @@
 }
 
 
-
-
 /*Nav bar*/
 .navegation {
     position: fixed;
@@ -308,7 +306,7 @@ i:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-        height: 120vh;
+    height: 120vh;
 }
 
 .toursection {
@@ -996,6 +994,11 @@ i:hover {
         font-family: poppins, sans-serif;
     }
 
+    #body {
+        width: 90%;
+
+    }
+
     .nav {
         display: block;
         width: 100%;
@@ -1024,11 +1027,11 @@ i:hover {
     }
 
     ul {
-       list-style: none;
-  display: flex;
-  margin: 15px;
-  padding: 0;
-  gap: 10px;
+        list-style: none;
+        display: flex;
+        margin: 15px;
+        padding: 0;
+        gap: 10px;
     }
 
     .list li {
@@ -1044,12 +1047,14 @@ i:hover {
         font-size: 30px;
         position: relative;
         top: 80px;
+        left: 15px;
     }
 
     .outnow {
         font-size: 20px;
         position: relative;
         top: 15vh;
+        left: 20px;
     }
 
     .btnlisten {
@@ -1057,11 +1062,14 @@ i:hover {
         position: relative;
         top: 17vh;
         padding: 5px 10px;
+        left: 21px;
     }
 
     .container2 img {
         width: 50vh;
         height: 40vh;
+        position: relative;
+        left: 14px;
     }
 
     .discs {
@@ -1073,7 +1081,7 @@ i:hover {
             "cd3 cd4";
         position: relative;
         top: -20vh;
-        left: -5vh;
+        left: -3vh;
     }
 
     .discs a img {
@@ -1103,127 +1111,536 @@ i:hover {
         height: 5vh;
     }
 
-.logotour{
-    display: block;
-    position: relative;
-    top: -1vh;        
-    width: 20vh;
-    height: 10vh;
+    .logotour {
+        display: block;
+        position: relative;
+        top: -1vh;
+        width: 20vh;
+        height: 10vh;
+    }
+
+    .navegationtour {
+        display: inline-block;
+        position: fixed;
+        height: 10vh;
+        width: 100%;
+        background-color: #3b7780;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        z-index: 100;
+    }
+
+    .navegationtour .logo {
+        display: block;
+        position: relative;
+        top: -1vh;
+        width: 17vh;
+        height: 10vh;
+    }
+
+    .lilist a {
+        display: block;
+        text-transform: uppercase;
+        position: relative;
+        top: -20px;
+    }
+
+    .listtour li {
+        display: inline-block;
+        padding: 1vh;
+        font-family: cursive;
+        text-transform: uppercase;
+        position: relative;
+        top: 40px;
+        left: -7vh;
+        margin: 2.5vh;
+        ;
+    }
+
+    .listtour li a {
+        display: block;
+        color: #f2e15c;
+        font-size: 14px;
+        font-family: cursive;
+
+    }
+
+    .maintour {
+        display: block;
+        background-color: #3b7780;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .toursection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            " date1 date2 date3 date4"
+            " place place2 place3 place4"
+            "  rsvp1 rsvp2 rsvp3 rsvp4"
+            " tiket1 tiket2 tiket3 tiket4";
+        width: 100%;
+        height: 20vw;
+        position: relative;
+        top: 51vh;
+
+    }
+
+    .toursection div span {
+        font-size: 17px;
+    }
+
+    /*store*/
+
+
+    .mainstore {
+        display: block;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 430vh;
+    }
+
+    .storesection {
+        display: grid;
+        background-color: #3b7780;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item4"
+            "item5"
+            "item6"
+            "item7"
+            "item8";
+    }
+
+
+    /*Music*/
+
+    .offernewcd {
+        display: block;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #3b7780;
+        box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        height: 90vh;
+    }
+
+    .offernewcd img {
+        display: block;
+        width: 50vh;
+        padding: 10px;
+        object-fit: cover;
+        position: relative;
+        top: 15vh;
+        right: 2.7vh;
+
+    }
+
+    .comment p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        color: #f0df5d;
+        font-family: cursive;
+        position: relative;
+        top: 20vh;
+        left: -1px;
+        box-sizing: border-box;
+
+    }
+
+    .mainmusic {
+        display: block;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400vw;
+    }
+
+    .musiccontainer {
+        display: grid;
+        background-color: #3b7780;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+            "cd1 cd2"
+            "cd3 cd4"
+            "cd5 cd6"
+            "cd7 cd8"
+            "cd9 cd10"
+            "cd11 cd12";
+        height: 180vh;
+        width: 100%;
+        background-color: black;
+    }
+
+
+
+    .musiccontainer img {
+        display: flex;
+        width: 11em;
+        padding: 0;
+        object-fit: cover;
+        opacity: .9;
+
+    }
+
+    .musiccontainer img:hover {
+        cursor: crosshair;
+        width: 170px;
+    }
+
+
+    .subtitulo {
+        color: white;
+       position: relative;
+       left: 5em;
+       top: -58em;
+    }
+
 }
 
-.navegationtour {
-    display: inline-block;
-    position: fixed;
-    height: 10vh;
-    width: 100%;
-    background-color: #3b7780;
-    box-sizing: border-box;
-    -webkit-box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
-    z-index: 100;
+
+@media (max-width: 1024px) and (min-width: 600px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins, sans-serif;
+    }
+
+    #body {
+        width: 100%;
+
+    }
+
+    .nav {
+        display: block;
+        width: 100%;
+        height: 5vh;
+    }
+
+    .navegation {
+        position: fixed;
+        height: 10vh;
+        width: 100%;
+        right: 0;
+        left: 0;
+        background-color: #3b7780;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        z-index: 100;
+    }
+
+    .navegation .logo {
+        display: block;
+        position: relative;
+        top: -1vh;
+        width: 20vh;
+        height: 10vh;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 15px;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .list li {
+        display: inline-block;
+        padding: 1.6em;
+        text-transform: uppercase;
+        position: relative;
+        top: 35px;
+        left: 20vh;
+    }
+
+    .titulo {
+        font-size: 30px;
+        position: relative;
+        left: 15px;
+    }
+
+    .outnow {
+        font-size: 20px;
+        position: relative;
+        top: 15vh;
+        left: 20px;
+    }
+
+    .btnlisten {
+        font-size: 20px;
+        position: relative;
+        top: 17vh;
+        padding: 5px 10px;
+        left: 21px;
+    }
+
+    .container2 img {
+        width: 60vh;
+        height: 50vh;
+        position: relative;
+        top: 20vh;
+    }
+
+    .discs {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "cd1 cd2 cd3 cd4"
+            position: relative;
+        top: -20vh;
+        left: -3.5em;
+    }
+
+    .discs a img {
+        width: 18vh;
+        padding: 5px;
+        object-fit: cover;
+        opacity: .9;
+        transition: .5s ease;
+        display: flexbox;
+        position: relative;
+        right: 25%;
+        box-sizing: border-box;
+        transition: all 0.5s;
+    }
+
+    .discs a img:hover {
+        cursor: crosshair;
+        width: 190px;
+        opacity: 3;
+    }
+
+    /*Tour*/
+
+    .headertour {
+        display: fixed;
+        width: 100%;
+        height: 5vh;
+    }
+
+    .logotour {
+        display: block;
+        position: relative;
+        top: -1vh;
+        width: 20vh;
+        height: 10vh;
+    }
+
+    .navegationtour {
+        display: inline-block;
+        position: fixed;
+        height: 10vh;
+        width: 100%;
+        background-color: #3b7780;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        z-index: 100;
+    }
+
+    .navegationtour .logo {
+        display: block;
+        position: relative;
+        top: -1vh;
+        width: 17vh;
+        height: 10vh;
+    }
+
+    .lilist a {
+        display: block;
+        text-transform: uppercase;
+        position: relative;
+        top: -20px;
+    }
+
+    .listtour li {
+        display: inline-block;
+        padding: 1vh;
+        font-family: cursive;
+        text-transform: uppercase;
+        position: relative;
+        top: 40px;
+        left: -7vh;
+        margin: 2.5vh;
+        ;
+    }
+
+    .listtour li a {
+        display: block;
+        color: #f2e15c;
+        font-size: 14px;
+        font-family: cursive;
+
+    }
+
+    .maintour {
+        display: block;
+        background-color: #3b7780;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .toursection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            " date1 date2 date3 date4"
+            " place place2 place3 place4"
+            "  rsvp1 rsvp2 rsvp3 rsvp4"
+            " tiket1 tiket2 tiket3 tiket4";
+        width: 100%;
+        height: 20vw;
+        position: relative;
+        top: 51vh;
+        left: -1.5em;
+
+    }
+
+    .toursection div span {
+        font-size: 17px;
+    }
+
+    /*store*/
+
+
+    .mainstore {
+        display: block;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 250vh;
+    }
+
+    .storesection {
+        display: grid;
+        background-color: #3b7780;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item8";
+    }
+
+
+    /*Music*/
+
+    .offernewcd {
+        display: block;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #3b7780;
+        box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+        height: 100vh;
+    }
+
+    .offernewcd img {
+        display: block;
+        width: 70vh;
+        padding: 10px;
+        object-fit: cover;
+        position: relative;
+        top: 15vh;
+        right: -2vh;
+
+    }
+
+    .comment p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        color: #f0df5d;
+        font-family: cursive;
+        position: relative;
+        top: 15vh;
+        left: 5px;
+        box-sizing: border-box;
+
+    }
+
+    .mainmusic {
+        display: block;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 400vw;
+    }
+
+    .musiccontainer {
+        display: grid;
+        background-color: #3b7780;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+            "cd1 cd2"
+            "cd3 cd4"
+            "cd5 cd6"
+            "cd7 cd8"
+            "cd9 cd10"
+            "cd11 cd12";
+        height: 240vh;
+        width: 100%;
+        background-color: black;
+    }
+
+
+
+    .musiccontainer img {
+        display: flex;
+        width: 20em;
+        padding: 0;
+        object-fit: cover;
+        opacity: .9;
+
+    }
+
+    .musiccontainer img:hover {
+        cursor: crosshair;
+        width: 300px;
+    }
+
+
+    .subtitulo {
+        color: white;
+       position: relative;
+       left: 9em;
+       top: -78em;
+    }
+
+
+
+
+
+
+
+
+
 }
-
-.navegationtour .logo {
-    display: block;
-    position: relative;
-    top: -1vh;        
-    width: 17vh;
-    height: 10vh;
-}
-
-.lilist a {
-display: block;
-text-transform: uppercase;
-position: relative;
-top: -20px;
-}
-.listtour li {
-display: inline-block;
-padding: 1vh;
-font-family: cursive;
-text-transform: uppercase;
-position: relative;
-top: 40px;
-left: -7vh;
-margin: 2.5vh;;
-}
-
-.listtour li a {
-display: block;
-color: #f2e15c;
-font-size:14px;
-font-family: cursive;
-
-}
-
-.maintour {
-    display: block;
-    background-color: #3b7780;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    width: 100%;}
-
-.toursection {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-        " date1 date2 date3 date4"
-        " place place2 place3 place4"
-        "  rsvp1 rsvp2 rsvp3 rsvp4"
-        " tiket1 tiket2 tiket3 tiket4";
-    width: 100%;
-    height: 20vw;
-    position: relative;
-    top: 51vh;
-    
-}
-.toursection div span{
-font-size: 17px;
-}
-
-/*store*/
-
-
-.mainstore {
-    display: block;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 430vh;
-}
-
-.storesection {
-    display: grid;
-    background-color: #3b7780;
-    grid-template-columns:repeat(1, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-areas:
-        "item1"
-        "item2"
-        "item3"
-        "item4"
-        "item5"
-        "item6"
-        "item7"
-        "item8";
-}
-
-.item1{
-    grid-area: item1;
-    display: flex;
-}
-
-item2{
-    grid-area: item2;
-    display: flex;
-}
-
-
-
-
-
-}
-    

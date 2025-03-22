@@ -26,7 +26,7 @@ $textcolor: #f2e15c;
     .rotate-scale-up {
         width: 5em;
         height: 5em;
-        padding: 10px;
+        padding: 15px;
         animation: rotate-scale-up 0.65s linear both;
     }
 
@@ -57,7 +57,7 @@ $textcolor: #f2e15c;
 
     a {
         color: #f2e15c;
-        font-size: 15px;
+        font-size: 20px;
         font-family: cursive;
         text-decoration: none;
         transition: all 0.5s;
@@ -1447,7 +1447,9 @@ border-radius: 30px;
    
     body {
       font-size: 16px;
+      overflow-x: hidden;
     }
+   
     
 .titulo{
     position: relative;
@@ -1466,14 +1468,14 @@ border-radius: 30px;
 }
 
 .contenedorcds{
-    display: flex;
+    display: block;
     position: relative;
-    left: 0px;
+    width: 90%;
     .discs{
         display: flex;
         position: relative;
         top: -18rem;
-        width: 90%;
+        width: 70%;
 
         a img{
             width: 17vh;
@@ -1597,7 +1599,211 @@ img:hover {
 }
 
 /*contactus*/
+}
 
+@media (max-width: 575.98px)and (orientation:portrait) {
+
+  body {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+ 
+  
+.titulo{
+  position: relative;
+  left: -1px;
+}
+
+
+.outnow{
+  position: relative;
+  left: 5px;
+}
+
+.btnurl{
+  position: relative;
+  left: -25px;
+}
+
+.container2 {
+  width: 100%;
+  height: 60%;
+
+ .slide-in-elliptic-top-fwd{
+ width: 20rem;
+ height: 40rem; 
+ }
+  
+}
+
+.contenedorcds{
+  display: block;
+  position: relative;
+  width: 90%;
+  .discs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "cd1 cd2"
+        "cd3 cd4";
+    position: relative;
+    top: -50%;
+    left: 10%;
+
+      a img{
+          width: 20vh;
+          padding: 10px;
+          object-fit: cover;
+          opacity: .9;
+          transition: .5s ease;
+          display: flexbox;
+          position: relative;
+          right: 28%;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          box-sizing: border-box;
+      }
+
+      a img:hover {
+          cursor: crosshair;
+          width: 20vh;
+          opacity: 3;
+      }
+  }
+
+
+
+}
+
+/*Music*/
+.offernewcd {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #3b7780;
+  box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+  height: 50vh;
+
+  img{
+      display: block;
+      width: 40%;
+      object-fit: cover;
+      position: relative;
+      top: 4vh;
+      right: -2vh;
+  }
+}
+
+
+.musiccontainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+      " cd1 cd2"
+      " cd3 cd4"
+      " cd5 cd6"
+      " cd7 cd8"
+      " cd9 cd10"
+      " cd11 cd12";
+  background-color: black;
+  position: relative;
+  bottom: 10%;
+  height: 190rem;
+
+img{
+  display: flex;
+  width: 100%;
+  padding: 0;
+  object-fit: cover;
+  opacity: .9;
+  right: 3%;
+}
+
+img:hover {
+  cursor: crosshair;
+  width: 101%;
+}
+
+.subtitulo{
+  position: relative;
+  bottom: 185.5rem;
+  left: 20rem;
+}
+
+
+}
+
+.maintour {
+  display: block;
+  background-color: #3b7780;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .toursection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        " date1 date2 date3"
+        " place place2 place3"
+        "  rsvp1 rsvp2 rsvp3"
+        " tiket1 tiket2 tiket3";
+    width: 90%;
+    height: 10vw;
+    position: relative;
+    top: 20vh;
+    right: 15px;
+
+    div span{
+      font-size: 15px;
+    }
+
+}
+
+
+}
+
+/*Store*/
+
+.mainstore {
+  display: block;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 130rem;
+
+  .storesection {
+      display: grid;
+      background-color: #3b7780;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      grid-template-areas:
+          "item1 item2"
+          "item3 item4"
+          "item5 item6"
+          "item7 item8";
+          width: 80%;
+          position: relative;
+          top: 13em;
+          right: -5rem;
+  }
+
+  .card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: cursive;
+  }
+}
+
+/*contactus*/
 
 
 }

@@ -1449,59 +1449,55 @@ border-radius: 30px;
       font-size: 16px;
       overflow-x: hidden;
     }
-   
-    
-.titulo{
-    position: relative;
-    left: -8px;
-}
 
+    .titulo {
+      position: relative;
+      left: -8px;
+    }
 
-.outnow{
-    position: relative;
-    left: 10px;
-}
+    .outnow {
+      position: relative;
+      left: 10px;
+    }
 
-.btnurl{
-    position: relative;
-    left: -6px;
-}
+    .btnurl {
+      position: relative;
+      left: -6px;
+    }
 
-.contenedorcds{
-    display: block;
-    position: relative;
-    width: 90%;
-    .discs{
+    .contenedorcds {
+      display: block;
+      position: relative;
+      width: 90%;
+
+      .discs {
         display: flex;
         position: relative;
         top: -18rem;
         width: 70%;
 
-        a img{
-            width: 17vh;
-            padding: 10px;
-            object-fit: cover;
-            opacity: .9;
-            transition: .5s ease;
-            display: flexbox;
-            position: relative;
-            right: 28%;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            box-sizing: border-box;
+        a img {
+          width: 17vh;
+          padding: 10px;
+          object-fit: cover;
+          opacity: .9;
+          transition: .5s ease;
+          display: flexbox;
+          position: relative;
+          right: 28%;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          box-sizing: border-box;
         }
 
         a img:hover {
-            cursor: crosshair;
-            width: 20vh;
-            opacity: 3;
+          cursor: crosshair;
+          width: 20vh;
+          opacity: 3;
         }
+      }
     }
-
-
-
-}
 
 /*Music*/
 .offernewcd {

@@ -1301,6 +1301,7 @@ a {
   body {
     font-size: 16px;
     overflow-x: hidden;
+    overflow-y: auto;
   }
   .titulo {
     position: relative;
@@ -1421,7 +1422,7 @@ a {
 @media (max-width: 768px) and (min-width: 320px) {
   body {
     font-size: 16px;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .navbar {
     background-color: #4da2a9;
@@ -1437,14 +1438,13 @@ a {
     justify-content: space-between;
     padding: 0 2rem;
     box-sizing: border-box;
-    overflow: hidden;
   }
   .navbar .rotate-scale-up {
     display: flex;
-    width: 5em;
-    height: 5em;
+    width: 4.5em;
+    height: 4.5em;
     position: relative;
-    right: 1px;
+    right: -10px;
     animation: rotate-scale-up 0.65s linear both;
   }
   @keyframes rotate-scale-up {
@@ -1476,7 +1476,7 @@ a {
     text-decoration: none;
     transition: all 0.5s;
     position: relative;
-    right: 40px;
+    right: 50px;
   }
   .navbar a:hover {
     color: #fff;
@@ -1520,33 +1520,24 @@ a {
   .titulo {
     position: relative;
     left: -1px;
-    max-width: 100%;
-    overflow: hidden;
   }
   .outnow {
     position: relative;
     left: 5px;
-    max-width: 100%;
-    overflow: hidden;
   }
   .btnurl {
     position: relative;
     left: -25px;
-    max-width: 100%;
-    overflow: hidden;
   }
   .gridmain .container2 img {
     display: block;
-    width: 100%;
-    max-width: 50rem;
-    padding: 10px;
+    padding: 0.05rem;
     overflow: hidden;
   }
   .contenedorcds {
     display: block;
     position: relative;
-    width: 100%;
-    overflow: hidden;
+    width: 90%;
   }
   .contenedorcds .discs {
     display: grid;
@@ -1555,18 +1546,17 @@ a {
     grid-template-areas: "cd1 cd2" "cd3 cd4";
     position: relative;
     top: -50%;
-    left: 0;
-    max-width: 100%;
-    overflow: hidden;
+    left: 10%;
   }
   .contenedorcds .discs a img {
-    width: 100%;
-    max-width: 20vh;
+    width: 20vh;
     padding: 10px;
     object-fit: cover;
     opacity: 0.9;
     transition: 0.5s ease;
     display: flexbox;
+    position: relative;
+    right: 28%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1574,8 +1564,7 @@ a {
   }
   .contenedorcds .discs a img:hover {
     cursor: crosshair;
-    width: 100%;
-    max-width: 20vh;
+    width: 20vh;
     opacity: 3;
   }
   /*Music*/

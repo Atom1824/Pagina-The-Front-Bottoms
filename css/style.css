@@ -1301,7 +1301,6 @@ a {
 @media (max-width: 1024px) and (min-width: 600px) {
   body {
     font-size: 16px;
-    overflow-x: hidden;
   }
   .titulo {
     position: relative;
@@ -1318,18 +1317,16 @@ a {
   .contenedorcds {
     display: block;
     position: relative;
-    width: 90%;
-    overflow: hidden;
+    width: 100%;
   }
   .contenedorcds .discs {
     display: flex;
     position: relative;
     top: -18rem;
-    width: 70%;
+    width: 100%;
   }
   .contenedorcds .discs a img {
-    width: 17vh;
-    padding: 10px;
+    width: 15vh;
     object-fit: cover;
     opacity: 0.9;
     transition: 0.5s ease;
@@ -1434,18 +1431,15 @@ a {
     box-shadow: 0px 0px 50px 30px black;
     border-radius: 5px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
   }
   .navbar .rotate-scale-up {
     display: flex;
     width: 5em;
     height: 5em;
     position: relative;
-    right: -8px;
+    right: -2rem;
     animation: rotate-scale-up 0.65s linear both;
   }
   @keyframes rotate-scale-up {
@@ -1477,7 +1471,7 @@ a {
     text-decoration: none;
     transition: all 0.5s;
     position: relative;
-    right: 55px;
+    right: 20px;
   }
   .navbar a:hover {
     color: #fff;
@@ -1543,7 +1537,7 @@ a {
     width: 30rem;
     padding: 70px;
     position: relative;
-    right: -6rem;
+    right: -6.2rem;
   }
   .contenedorcds {
     display: block;
@@ -1557,7 +1551,7 @@ a {
     grid-template-areas: "cd1 cd2" "cd3 cd4";
     position: relative;
     top: -50%;
-    left: 13%;
+    left: 10%;
   }
   .contenedorcds .discs a img {
     width: 20vh;
@@ -1599,7 +1593,7 @@ a {
     object-fit: cover;
     position: relative;
     top: 2rem;
-    right: -15%;
+    right: -12%;
   }
   .offernewcd p {
     opacity: 0%;
@@ -1612,7 +1606,7 @@ a {
     background-color: black;
     position: relative;
     bottom: 10%;
-    height: 115rem;
+    height: 111rem;
   }
   .musiccontainer img {
     display: flex;
@@ -1628,7 +1622,7 @@ a {
   }
   .musiccontainer .subtitulo {
     position: relative;
-    bottom: 112.5rem;
+    bottom: 108.5rem;
     left: 9rem;
   }
   .maintour {
@@ -1649,7 +1643,7 @@ a {
     height: 10vw;
     position: relative;
     top: 20vh;
-    right: 3%;
+    right: -3%;
   }
   .maintour .toursection div span {
     font-size: 15px;
@@ -1661,7 +1655,7 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 440vh;
+    height: 411vh;
   }
   .mainstore .storesection {
     display: grid;

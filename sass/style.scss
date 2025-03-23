@@ -1448,7 +1448,6 @@ border-radius: 30px;
    
     body {
       font-size: 16px;
-      overflow-x: hidden;
     }
 
     .titulo {
@@ -1469,18 +1468,17 @@ border-radius: 30px;
     .contenedorcds {
       display: block;
       position: relative;
-      width: 90%;
-      overflow: hidden;
-
-      .discs {
+      width: 100%;
+; 
+     
+     .discs {
         display: flex;
         position: relative;
         top: -18rem;
-        width: 70%;
+        width: 100%;
 
         a img {
-          width: 17vh;
-          padding: 10px;
+          width: 15vh;
           object-fit: cover;
           opacity: .9;
           transition: .5s ease;
@@ -1618,18 +1616,15 @@ img:hover {
     box-shadow: 0px 0px 50px 30px black;
     border-radius: 5px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 
     .rotate-scale-up {
       display: flex;
       width: 5em;
       height: 5em;
       position: relative;
-      right: -8px;
+      right: -2rem;
       animation: rotate-scale-up 0.65s linear both;
     }
 
@@ -1665,7 +1660,7 @@ img:hover {
       text-decoration: none;
       transition: all 0.5s;
       position: relative;
-      right: 55px;
+      right: 20px;
     }
 
     a:hover {
@@ -1739,7 +1734,7 @@ img:hover {
         width: 30rem;
         padding: 70px;
         position: relative;
-        right: -6rem;
+        right: -6.2rem;
       }
     }
   }
@@ -1758,7 +1753,7 @@ img:hover {
         "cd3 cd4";
       position: relative;
       top: -50%;
-      left: 13%;
+      left: 10%;
 
       a img {
         width: 20vh;
@@ -1807,7 +1802,7 @@ img:hover {
     object-fit: cover;
     position: relative;
     top: 2rem;
-    right: -15%;
+    right: -12%;
   }
 
   p{
@@ -1830,7 +1825,7 @@ img:hover {
   background-color: black;
   position: relative;
   bottom: 10%;
-  height: 115rem;
+  height: 111rem;
 
 img{
   display: flex;
@@ -1848,7 +1843,7 @@ img:hover {
 
 .subtitulo{
   position: relative;
-  bottom: 112.5rem;
+  bottom: 108.5rem;
   left: 9rem;
 }
 
@@ -1877,7 +1872,7 @@ img:hover {
     height: 10vw;
     position: relative;
     top: 20vh;
-    right:3%;
+    right:-3%;
 
     div span{
       font-size: 15px;
@@ -1896,7 +1891,7 @@ img:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 440vh;
+  height: 411vh;
 
   .storesection {
     display: grid;

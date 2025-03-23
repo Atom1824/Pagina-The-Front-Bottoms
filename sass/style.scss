@@ -1726,6 +1726,9 @@ img:hover {
   }
 
   .gridmain {
+
+    width:100%;
+    overflow-x: hidden;
     .container2 {
       width: 50%;
       max-width: 20rem;

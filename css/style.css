@@ -1529,6 +1529,10 @@ a {
     position: relative;
     left: -25px;
   }
+  .gridmain {
+    width: 100%;
+    overflow-x: hidden;
+  }
   .gridmain .container2 {
     width: 50%;
     max-width: 20rem;

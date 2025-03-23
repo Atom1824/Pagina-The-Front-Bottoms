@@ -1437,13 +1437,14 @@ a {
     justify-content: space-between;
     padding: 0 2rem;
     box-sizing: border-box;
+    overflow: hidden;
   }
   .navbar .rotate-scale-up {
     display: flex;
     width: 5em;
     height: 5em;
     position: relative;
-    right: 1px;
+    right: -8px;
     animation: rotate-scale-up 0.65s linear both;
   }
   @keyframes rotate-scale-up {
@@ -1475,7 +1476,7 @@ a {
     text-decoration: none;
     transition: all 0.5s;
     position: relative;
-    right: 40px;
+    right: 55px;
   }
   .navbar a:hover {
     color: #fff;
@@ -1528,10 +1529,16 @@ a {
     position: relative;
     left: -25px;
   }
+  .gridmain .container2 {
+    width: 50%;
+    max-width: 20rem;
+  }
   .gridmain .container2 img {
     display: block;
-    width: 50rem;
-    padding: 50px;
+    width: 30rem;
+    padding: 70px;
+    position: relative;
+    right: -7rem;
   }
   .contenedorcds {
     display: block;
@@ -1545,7 +1552,7 @@ a {
     grid-template-areas: "cd1 cd2" "cd3 cd4";
     position: relative;
     top: -50%;
-    left: 10%;
+    left: 13%;
   }
   .contenedorcds .discs a img {
     width: 20vh;
@@ -1557,7 +1564,7 @@ a {
     position: relative;
     right: 28%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     text-align: center;
     box-sizing: border-box;
   }

@@ -1621,68 +1621,67 @@ img:hover {
     justify-content: space-between;
     padding: 0 2rem;
     box-sizing: border-box;
+    overflow: hidden;
 
     .rotate-scale-up {
       display: flex;
-        width: 5em;
-        height: 5em;
-        position: relative;
-        right: 1px;
-        animation: rotate-scale-up 0.65s linear both;
+      width: 5em;
+      height: 5em;
+      position: relative;
+      right: -8px;
+      animation: rotate-scale-up 0.65s linear both;
     }
 
     @keyframes rotate-scale-up {
-        0% {
-            transform: scale(1) rotateZ(0);
-        }
-        50% {
-            transform: scale(2) rotateZ(180deg);
-        }
-        100% {
-            transform: scale(1) rotateZ(360deg);
-        }
+      0% {
+        transform: scale(1) rotateZ(0);
+      }
+      50% {
+        transform: scale(2) rotateZ(180deg);
+      }
+      100% {
+        transform: scale(1) rotateZ(360deg);
+      }
     }
 
     ul {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        list-style: none;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
     }
 
     li {
-        margin: 0 1rem;
+      margin: 0 1rem;
     }
 
     a {
-        color: #f2e15c;
-        font-size: 15px;
-        font-family: cursive;
-        text-decoration: none;
-        transition: all 0.5s;
-        position: relative;
-        right: 40px;
+      color: #f2e15c;
+      font-size: 15px;
+      font-family: cursive;
+      text-decoration: none;
+      transition: all 0.5s;
+      position: relative;
+      right: 55px;
     }
 
     a:hover {
-        color: #fff;
+      color: #fff;
     }
-}
+  }
 
-a{
-    
-        -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-                animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    
-}
+  a {
+    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
 
-@-webkit-keyframes tracking-in-contract-bck-bottom {
+  @-webkit-keyframes tracking-in-contract-bck-bottom {
     0% {
       letter-spacing: 1em;
       -webkit-transform: translateZ(400px) translateY(300px);
-              transform: translateZ(400px) translateY(300px);
+      transform: translateZ(400px) translateY(300px);
       opacity: 0;
     }
     40% {
@@ -1690,7 +1689,7 @@ a{
     }
     100% {
       -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
+      transform: translateZ(0) translateY(0);
       opacity: 1;
     }
   }
@@ -1698,7 +1697,7 @@ a{
     0% {
       letter-spacing: 1em;
       -webkit-transform: translateZ(400px) translateY(300px);
-              transform: translateZ(400px) translateY(300px);
+      transform: translateZ(400px) translateY(300px);
       opacity: 0;
     }
     40% {
@@ -1706,7 +1705,7 @@ a{
     }
     100% {
       -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
+      transform: translateZ(0) translateY(0);
       opacity: 1;
     }
   }
@@ -1726,19 +1725,20 @@ a{
     left: -25px;
   }
 
- .gridmain{
+  .gridmain {
+    .container2 {
+      width: 50%;
+      max-width: 20rem;
 
-.container2{
-  img{
-    display: block;
-  width: 50rem;
-  padding: 50px;
+      img {
+        display: block;
+        width: 30rem;
+        padding: 70px;
+        position: relative;
+        right: -7rem;
+      }
+    }
   }
-}
-
-
-
- }
 
   .contenedorcds {
     display: block;
@@ -1754,7 +1754,7 @@ a{
         "cd3 cd4";
       position: relative;
       top: -50%;
-      left: 10%;
+      left: 13%;
 
       a img {
         width: 20vh;
@@ -1766,7 +1766,7 @@ a{
         position: relative;
         right: 28%;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 0;
         text-align: center;
         box-sizing: border-box;
       }

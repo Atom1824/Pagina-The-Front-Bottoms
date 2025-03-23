@@ -938,7 +938,7 @@ a {
   animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-@-webkit-keyframes contactform {
+@-webkit-keyframes scale-in-ver-bottom {
   0% {
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
@@ -954,7 +954,7 @@ a {
     opacity: 1;
   }
 }
-@keyframes contactform {
+@keyframes scale-in-ver-bottom {
   0% {
     -webkit-transform: scaleY(0);
     transform: scaleY(0);

@@ -1465,6 +1465,26 @@ border-radius: 30px;
       left: -6px;
     }
 
+
+    .gridmain {
+
+      width:100%;
+      overflow-x: hidden;
+      .container2 {
+        width: 50%;
+        max-width: 20rem;
+  
+        img {
+          display: block;
+          width: 30rem;
+          padding: 20px;
+          position: relative;
+          right: -15rem;
+        }
+      }
+    }
+
+
     .contenedorcds {
       display: block;
       position: relative;
@@ -1484,7 +1504,7 @@ border-radius: 30px;
           transition: .5s ease;
           display: flexbox;
           position: relative;
-          right: 28%;
+          right: 29%;
           margin-left: auto;
           margin-right: auto;
           text-align: center;
@@ -1734,7 +1754,7 @@ img:hover {
         width: 30rem;
         padding: 70px;
         position: relative;
-        right: -6.2rem;
+        right: -6.3rem;
       }
     }
   }

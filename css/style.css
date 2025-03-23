@@ -1421,7 +1421,7 @@ a {
 @media (max-width: 768px) and (min-width: 320px) {
   body {
     font-size: 16px;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .navbar {
     background-color: #4da2a9;
@@ -1437,6 +1437,7 @@ a {
     justify-content: space-between;
     padding: 0 2rem;
     box-sizing: border-box;
+    overflow: hidden;
   }
   .navbar .rotate-scale-up {
     display: flex;
@@ -1519,25 +1520,33 @@ a {
   .titulo {
     position: relative;
     left: -1px;
+    max-width: 100%;
+    overflow: hidden;
   }
   .outnow {
     position: relative;
     left: 5px;
+    max-width: 100%;
+    overflow: hidden;
   }
   .btnurl {
     position: relative;
     left: -25px;
+    max-width: 100%;
+    overflow: hidden;
   }
   .gridmain .container2 img {
     display: block;
-    width: 50rem;
-    padding: 50px;
+    width: 100%;
+    max-width: 50rem;
+    padding: 10px;
     overflow: hidden;
   }
   .contenedorcds {
     display: block;
     position: relative;
-    width: 90%;
+    width: 100%;
+    overflow: hidden;
   }
   .contenedorcds .discs {
     display: grid;
@@ -1546,17 +1555,18 @@ a {
     grid-template-areas: "cd1 cd2" "cd3 cd4";
     position: relative;
     top: -50%;
-    left: 10%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
   }
   .contenedorcds .discs a img {
-    width: 20vh;
+    width: 100%;
+    max-width: 20vh;
     padding: 10px;
     object-fit: cover;
     opacity: 0.9;
     transition: 0.5s ease;
     display: flexbox;
-    position: relative;
-    right: 28%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -1564,7 +1574,8 @@ a {
   }
   .contenedorcds .discs a img:hover {
     cursor: crosshair;
-    width: 20vh;
+    width: 100%;
+    max-width: 20vh;
     opacity: 3;
   }
   /*Music*/

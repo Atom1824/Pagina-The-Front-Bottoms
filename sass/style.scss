@@ -1862,6 +1862,7 @@ img:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
+  overflow: hidden;
 
   .toursection {
     display: grid;
@@ -1876,7 +1877,7 @@ img:hover {
     height: 10vw;
     position: relative;
     top: 20vh;
-    right:-1%;
+    right:3%;
 
     div span{
       font-size: 15px;

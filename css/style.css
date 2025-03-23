@@ -1638,6 +1638,7 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow: hidden;
   }
   .maintour .toursection {
     display: grid;
@@ -1648,7 +1649,7 @@ a {
     height: 10vw;
     position: relative;
     top: 20vh;
-    right: -1%;
+    right: 3%;
   }
   .maintour .toursection div span {
     font-size: 15px;

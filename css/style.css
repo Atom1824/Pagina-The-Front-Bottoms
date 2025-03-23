@@ -18,6 +18,7 @@
   justify-content: space-between;
   padding: 0 2rem;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .navbar .rotate-scale-up {
   width: 5em;
@@ -1542,7 +1543,7 @@ a {
     width: 30rem;
     padding: 70px;
     position: relative;
-    right: -7rem;
+    right: -6rem;
   }
   .contenedorcds {
     display: block;
@@ -1578,6 +1579,10 @@ a {
     opacity: 3;
   }
   /*Music*/
+  .mainmusic {
+    width: 100%;
+    overflow-x: hidden;
+  }
   .offernewcd {
     display: flex;
     margin: 0;

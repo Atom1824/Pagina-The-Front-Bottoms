@@ -1562,6 +1562,8 @@ img:hover {
 
 /*Store*/
 
+
+
 .mainstore {
     display: block;
     object-fit: cover;
@@ -1602,6 +1604,110 @@ img:hover {
   body {
     font-size: 16px;
     overflow-x: hidden;
+  }
+
+  .navbar {
+    background-color: $backgroundcolor;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 50px 30px black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-sizing: border-box;
+
+    .rotate-scale-up {
+      display: flex;
+        width: 5em;
+        height: 5em;
+        position: relative;
+        right: 10px;
+        animation: rotate-scale-up 0.65s linear both;
+    }
+
+    @keyframes rotate-scale-up {
+        0% {
+            transform: scale(1) rotateZ(0);
+        }
+        50% {
+            transform: scale(2) rotateZ(180deg);
+        }
+        100% {
+            transform: scale(1) rotateZ(360deg);
+        }
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        margin: 0 1rem;
+    }
+
+    a {
+        color: #f2e15c;
+        font-size: 15px;
+        font-family: cursive;
+        text-decoration: none;
+        transition: all 0.5s;
+        position: relative;
+        right: 40px;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+}
+
+a{
+    
+        -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(300px);
+              transform: translateZ(400px) translateY(300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-bottom {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(300px);
+              transform: translateZ(400px) translateY(300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
   }
 
   .titulo {
@@ -1679,12 +1785,17 @@ img:hover {
   height: 50vh;
 
   img{
-      display: block;
-      width: 40%;
-      object-fit: cover;
-      position: relative;
-      top: 4vh;
-      right: -2vh;
+    display: block;
+    width: 50vh;
+    padding: 10px;
+    object-fit: cover;
+    position: relative;
+    top: 2rem;
+    right: -15%;
+  }
+
+  p{
+  opacity: 0%;
   }
 }
 
@@ -1703,7 +1814,7 @@ img:hover {
   background-color: black;
   position: relative;
   bottom: 10%;
-  height: 190rem;
+  height: 115rem;
 
 img{
   display: flex;
@@ -1721,8 +1832,8 @@ img:hover {
 
 .subtitulo{
   position: relative;
-  bottom: 185.5rem;
-  left: 20rem;
+  bottom: 112.5rem;
+  left: 9rem;
 }
 
 
@@ -1749,7 +1860,7 @@ img:hover {
     height: 10vw;
     position: relative;
     top: 20vh;
-    right: 15px;
+    right:-1%;
 
     div span{
       font-size: 15px;
@@ -1768,22 +1879,22 @@ img:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 130rem;
+  height: 440vh;
 
   .storesection {
-      display: grid;
-      background-color: #3b7780;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(8, 1fr);
-      grid-template-areas:
-          "item1 item2"
-          "item3 item4"
-          "item5 item6"
-          "item7 item8";
-          width: 80%;
-          position: relative;
-          top: 13em;
-          right: -5rem;
+    display: grid;
+    background-color: #3b7780;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6"
+        "item7"
+        "item8";
   }
 
   .card{

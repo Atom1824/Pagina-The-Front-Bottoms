@@ -1581,7 +1581,7 @@ a {
   /*Music*/
   .mainmusic {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .offernewcd {
     display: flex;

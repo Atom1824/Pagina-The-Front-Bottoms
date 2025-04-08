@@ -622,280 +622,6 @@ a {
   }
 }
 
-.offernewcd {
-  display: flex;
-  width: 100%;
-  height: 30em;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #3b7780;
-  box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
-  border-radius: 30px;
-}
-
-.offernewcd img {
-  display: block;
-  width: 50vh;
-  padding: 30px;
-  object-fit: cover;
-  position: relative;
-  top: 2vh;
-}
-
-.offernewcd img {
-  -webkit-animation: wobble-hor-bottom 0.8s 5s 2 both;
-  animation: wobble-hor-bottom 0.8s 5s 2 both;
-}
-
-@-webkit-keyframes wobble-hor-bottom {
-  0%, 100% {
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(-6deg);
-    transform: translateX(-30px) rotate(-6deg);
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(6deg);
-    transform: translateX(15px) rotate(6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(-3.6deg);
-    transform: translateX(-15px) rotate(-3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(2.4deg);
-    transform: translateX(9px) rotate(2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(-1.2deg);
-    transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
-@keyframes wobble-hor-bottom {
-  0%, 100% {
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(-6deg);
-    transform: translateX(-30px) rotate(-6deg);
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(6deg);
-    transform: translateX(15px) rotate(6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(-3.6deg);
-    transform: translateX(-15px) rotate(-3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(2.4deg);
-    transform: translateX(9px) rotate(2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(-1.2deg);
-    transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
-.comment {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 30vh;
-}
-
-.comment p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
-  color: #f0df5d;
-  font-family: cursive;
-  padding: 10px;
-  margin: 10px;
-  position: relative;
-  top: 1vh;
-  width: 50%;
-  height: 50%;
-  box-sizing: border-box;
-}
-
-.musiccontainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: " cd1 cd2 cd3 cd4" " cd5 cd6 cd7 cd8" " cd9 cd10 cd11 cd12";
-  background-color: black;
-  position: relative;
-  bottom: 20px;
-  height: 125vh;
-}
-.musiccontainer .cd1 {
-  grid-area: cd1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd2 {
-  grid-area: cd2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd3 {
-  grid-area: cd3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd4 {
-  grid-area: cd4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd5 {
-  grid-area: cd5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd6 {
-  grid-area: cd6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd7 {
-  grid-area: cd7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd8 {
-  grid-area: cd8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd9 {
-  grid-area: cd9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd10 {
-  grid-area: cd10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd11 {
-  grid-area: cd11;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-.musiccontainer .cd12 {
-  grid-area: cd12;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
-}
-
-.musiccontainer img {
-  display: flex;
-  width: 30vh;
-  padding: 5px;
-  object-fit: cover;
-  opacity: 0.9;
-  position: relative;
-  top: 5vh;
-  transition: all 0.5s;
-}
-
-.musiccontainer img {
-  -webkit-animation: flip-in-hor-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: flip-in-hor-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes flip-in-hor-bottom {
-  0% {
-    -webkit-transform: rotateX(80deg);
-    transform: rotateX(80deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateX(0);
-    transform: rotateX(0);
-    opacity: 1;
-  }
-}
-@keyframes flip-in-hor-bottom {
-  0% {
-    -webkit-transform: rotateX(80deg);
-    transform: rotateX(80deg);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotateX(0);
-    transform: rotateX(0);
-    opacity: 1;
-  }
-}
-.musiccontainer img:hover {
-  cursor: crosshair;
-  width: 300px;
-  opacity: 1;
-  filter: contrast(120%);
-}
-
-.subtitulo {
-  display: block;
-  color: white;
-  font-size: 3vh;
-  font-family: cursive;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  bottom: 119vh;
-  left: 170%;
-}
-
 .bodycobtact {
   margin: 0;
   padding: 0;
@@ -1297,139 +1023,280 @@ a {
   top: 13vh;
 }
 
-@media (max-width: 1024px) and (min-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-  .titulo {
-    position: relative;
-    left: -8px;
-  }
-  .outnow {
-    position: relative;
-    left: 10px;
-  }
-  .btnurl {
-    position: relative;
-    left: -6px;
-  }
-  .gridmain {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  .gridmain .container2 {
-    width: 50%;
-    max-width: 20rem;
-  }
-  .gridmain .container2 img {
-    display: block;
-    width: 30rem;
-    padding: 20px;
-    position: relative;
-    right: -15rem;
-  }
-  .contenedorcds {
-    display: block;
-    position: relative;
-    width: 100%;
-  }
-  .contenedorcds .discs {
-    display: flex;
-    position: relative;
-    top: -18rem;
-    width: 100%;
-  }
-  .contenedorcds .discs a img {
-    width: 15vh;
-    object-fit: cover;
-    opacity: 0.9;
-    transition: 0.5s ease;
-    display: flexbox;
-    position: relative;
-    right: 29%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  .contenedorcds .discs a img:hover {
-    cursor: crosshair;
-    width: 20vh;
-    opacity: 3;
-  }
-  /*Music*/
-  .offernewcd {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #3b7780;
-    box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
-    height: 50vh;
-  }
-  .offernewcd img {
-    display: block;
-    width: 40%;
-    object-fit: cover;
-    position: relative;
-    top: 4vh;
-    right: -2vh;
-  }
-  .musiccontainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: " cd1 cd2" " cd3 cd4" " cd5 cd6" " cd7 cd8" " cd9 cd10" " cd11 cd12";
-    background-color: black;
-    position: relative;
-    bottom: 10%;
-    height: 190rem;
-  }
-  .musiccontainer img {
-    display: flex;
-    width: 100%;
-    padding: 0;
-    object-fit: cover;
-    opacity: 0.9;
-    right: 3%;
-  }
-  .musiccontainer img:hover {
-    cursor: crosshair;
-    width: 101%;
-  }
-  .musiccontainer .subtitulo {
-    position: relative;
-    bottom: 185.5rem;
-    left: 20rem;
-  }
-  /*Store*/
-  .mainstore {
-    display: block;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 130rem;
-  }
-  .mainstore .storesection {
-    display: grid;
-    background-color: #3b7780;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8";
-    width: 80%;
-    position: relative;
-    top: 13em;
-    right: -5rem;
-  }
-  .mainstore .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: cursive;
-  }
-  /*contactus*/
+.offernewcd {
+  display: flex;
+  width: 100%;
+  height: 30em;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #3b7780;
+  box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
 }
+
+.offernewcd img {
+  display: block;
+  width: 50vh;
+  padding: 30px;
+  object-fit: cover;
+  position: relative;
+  top: 2vh;
+}
+
+.offernewcd img {
+  -webkit-animation: wobble-hor-bottom 0.8s 5s 2 both;
+  animation: wobble-hor-bottom 0.8s 5s 2 both;
+}
+
+@-webkit-keyframes wobble-hor-bottom {
+  0%, 100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%, 100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+.comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+
+.comment p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #f0df5d;
+  font-family: cursive;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  top: 1vh;
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+}
+
+.musiccontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: " cd1 cd2 cd3 cd4" " cd5 cd6 cd7 cd8" " cd9 cd10 cd11 cd12";
+  background-color: black;
+  position: relative;
+  bottom: 20px;
+  height: 125vh;
+}
+.musiccontainer .cd1 {
+  grid-area: cd1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd2 {
+  grid-area: cd2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd3 {
+  grid-area: cd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd4 {
+  grid-area: cd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd5 {
+  grid-area: cd5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd6 {
+  grid-area: cd6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd7 {
+  grid-area: cd7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd8 {
+  grid-area: cd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd9 {
+  grid-area: cd9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd10 {
+  grid-area: cd10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd11 {
+  grid-area: cd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.musiccontainer .cd12 {
+  grid-area: cd12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.musiccontainer img {
+  display: flex;
+  width: 30vh;
+  padding: 5px;
+  object-fit: cover;
+  opacity: 0.9;
+  position: relative;
+  top: 5vh;
+  transition: all 0.5s;
+}
+
+.musiccontainer img {
+  -webkit-animation: flip-in-hor-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: flip-in-hor-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+    transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-hor-bottom {
+  0% {
+    -webkit-transform: rotateX(80deg);
+    transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+.musiccontainer img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.subtitulo {
+  display: block;
+  color: white;
+  font-size: 3vh;
+  font-family: cursive;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 119vh;
+  left: 170%;
+}
+
 @media (max-width: 768px) and (min-width: 320px) {
   body {
     font-size: 16px;
@@ -1679,6 +1546,138 @@ a {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);
     grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8";
+  }
+  .mainstore .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+  }
+}
+@media (max-width: 1024px) and (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .titulo {
+    position: relative;
+    left: -8px;
+  }
+  .outnow {
+    position: relative;
+    left: 10px;
+  }
+  .btnurl {
+    position: relative;
+    left: -6px;
+  }
+  .gridmain {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .gridmain .container2 {
+    width: 50%;
+    max-width: 20rem;
+  }
+  .gridmain .container2 img {
+    display: block;
+    width: 30rem;
+    padding: 20px;
+    position: relative;
+    right: -15rem;
+  }
+  .contenedorcds {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+  .contenedorcds .discs {
+    display: flex;
+    position: relative;
+    top: -18rem;
+    width: 100%;
+  }
+  .contenedorcds .discs a img {
+    width: 15vh;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: 0.5s ease;
+    display: flexbox;
+    position: relative;
+    right: 29%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .contenedorcds .discs a img:hover {
+    cursor: crosshair;
+    width: 20vh;
+    opacity: 3;
+  }
+  /*Music*/
+  .offernewcd {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3b7780;
+    box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+    height: 50vh;
+  }
+  .offernewcd img {
+    display: block;
+    width: 40%;
+    object-fit: cover;
+    position: relative;
+    top: 4vh;
+    right: -2vh;
+  }
+  .musiccontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: " cd1 cd2" " cd3 cd4" " cd5 cd6" " cd7 cd8" " cd9 cd10" " cd11 cd12";
+    background-color: black;
+    position: relative;
+    bottom: 10%;
+    height: 190rem;
+  }
+  .musiccontainer img {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+    opacity: 0.9;
+    right: 3%;
+  }
+  .musiccontainer img:hover {
+    cursor: crosshair;
+    width: 101%;
+  }
+  .musiccontainer .subtitulo {
+    position: relative;
+    bottom: 185.5rem;
+    left: 20rem;
+  }
+  /*Store*/
+  .mainstore {
+    display: block;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 130rem;
+  }
+  .mainstore .storesection {
+    display: grid;
+    background-color: #3b7780;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8";
+    width: 80%;
+    position: relative;
+    top: 13em;
+    right: -5rem;
   }
   .mainstore .card {
     display: flex;

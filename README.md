@@ -21,8 +21,14 @@ Este es un proyecto que forma parte de mi cerificacion de coderhouse, se trata d
 
 <p align="center">🔗 LinkedIn: <a href="https://www.linkedin.com/in/gabriel-ruiz-amaya-08399b185/" target="_blank">Gabriel Ruiz Amaya</a> Email: gabrielruizamaya@gmail.com</p>
 
-![image](https://github.com/user-attachments/assets/8044768c-82b5-44f7-8961-022a76c502ba)
-![image](https://github.com/user-attachments/assets/58ae2f11-f241-43e0-a4ab-5a96f6901393)
-![image](https://github.com/user-attachments/assets/58866767-3546-487c-b748-b41476b732c7)
-![image](https://github.com/user-attachments/assets/a841cb39-a232-4148-a2eb-65d293436978)
-![image](https://github.com/user-attachments/assets/6e6098d2-4768-44d3-9ff8-e55a3e5ac57a)
+![image](https://github.com/user-attachments/assets/a4593d9d-1f0d-41aa-aee3-647c23d6608a)
+![image](https://github.com/user-attachments/assets/fbb288c5-cf69-46e2-81e3-ca6bfc169ca0)
+![image](https://github.com/user-attachments/assets/5da72420-9b85-4291-a0df-18915916f5c9)
+![image](https://github.com/user-attachments/assets/cd678e62-ccdb-47bd-9bf2-3e89dc15a15f)
+![image](https://github.com/user-attachments/assets/3e3fda2a-6b76-445e-b7a9-ee0087c21602)
+
+![image](https://github.com/user-attachments/assets/d43bea68-5627-4717-afe4-140768cdc9b9)
+![image](https://github.com/user-attachments/assets/54832872-450a-4e5c-b9ea-37bf4c76f687)
+![image](https://github.com/user-attachments/assets/9569c8fc-3fd2-4ac8-8880-bf2bbfd5f1d0)
+![image](https://github.com/user-attachments/assets/697bddcc-1d1f-459c-b846-d8a5474ed3da)
+![image](https://github.com/user-attachments/assets/9a64aa57-6097-40ac-a298-328e52b52147)

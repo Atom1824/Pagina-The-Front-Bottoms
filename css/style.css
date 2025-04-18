@@ -120,7 +120,7 @@ a {
 .gridmain .shake-horizontal {
   position: relative;
   top: 12rem;
-  right: -47%;
+  right: -47.3vw;
   font-size: 15px;
   color: black;
   background-color: #f0df5d;
@@ -202,7 +202,7 @@ a {
   font-family: cursive;
   position: relative;
   bottom: 10vw;
-  left: 5.5%;
+  left: 3.1vw;
 }
 .gridmain .discs a img {
   display: flex;
